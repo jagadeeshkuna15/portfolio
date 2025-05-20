@@ -1,0 +1,43 @@
+html {
+  scroll-behavior: smooth;
+}
+/* src/assets/main.css */
+
+:root {
+  --accent: #2dd4bf;
+  --text: #d1d5db;
+  --bg: #0b1120;
+}
+:root {
+  --text-color: #ffffff;
+  --secondary-text: #ccc;
+}
+
+.light-theme {
+  --text-color: #121212;
+  --secondary-text: #333;
+}
+
+body.dark-theme {
+  --accent: #2dd4bf;
+  --text: #d1d5db;
+  --bg: #0b1120;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+body.light-theme {
+  --accent: #007bff;
+  --text: #212529;
+  --bg: #ffffff;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+body {
+  scroll-behavior: smooth;
+  transition: background-color 0.3s, color 0.3s;
+}
+html {
+  scroll-behavior: smooth;
+}
