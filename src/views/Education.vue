@@ -24,11 +24,11 @@
           <div class="edu-entry row">
             <div class="col-9">
              <h5 class="fw-bold mb-1" :style="{ color: 'var(--text-color)' }">
-  Jawaharlal Nehru Technological University, Kakinada (JNTUK)
+  Jawaharlal Nehru Technological University(JNTUK)
 </h5>
 
 <p class=" mb-0" :style="{ color: 'var(--text-color)' }">
- Bachelor of Technology – <em> - Computer Science and Engineering</em>
+ Bachelor of Technology  <em> - Computer Science and Engineering</em>
 </p>
 
             </div>
