@@ -10,7 +10,7 @@
       <!-- Experience Content -->
       <div>
         <h5 class="fw-bold" style="color: var(--accent)">
-          Front-End Developer – NetElixir
+          Front-End Developer – Mantra technologies
         </h5>
         <ul>
           <li>
