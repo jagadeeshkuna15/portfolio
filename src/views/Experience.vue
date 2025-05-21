@@ -10,7 +10,7 @@
       <!-- Experience Content -->
       <div>
         <h5 class="fw-bold" style="color: var(--accent)">
-          Front-End Developer – Mantra technologies.
+          Front-End Developer – Mantra technologies                                                                                                               
         </h5>
         <ul>
           <li>
@@ -27,6 +27,10 @@
           </li>
           <li>
             Integrated real-time collaboration, reusable components, cloud features, and advanced UI functionality.
+          </li>
+          <li>
+           Audio and Video recording, create short audio and video messages to provide better narrative while assigning
+work, giving a work update, product demo or step-by-step instructions.
           </li>
         </ul>
       </div>

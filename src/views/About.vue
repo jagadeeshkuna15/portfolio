@@ -6,7 +6,7 @@
       <div class="row align-items-center">
         <div class="col-md-4 text-center mb-3 mb-md-0">
           <img
-            src="/jaggu-26.png"
+            src="/jaggu-26.jpg"
             class="img-fluid rounded-circle"
             alt="Jagadeesh Kuna"
           />
