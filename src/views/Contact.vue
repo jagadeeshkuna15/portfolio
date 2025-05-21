@@ -19,7 +19,7 @@
             <a href="https://www.linkedin.com/in/jagadeeshkuna" target="_blank" class="icon-link">
               <i class="bi bi-linkedin"></i>
             </a>
-            <a href="https://github.com/yourgithub" target="_blank" class="icon-link">
+            <a href="https://github.com/jagadeeshkuna15" target="_blank" class="icon-link">
               <i class="bi bi-github"></i>
             </a>
             <a href="mailto:jkuna.jagadeesh@gmail.com" class="icon-link">

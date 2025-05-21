@@ -37,7 +37,7 @@
         </ul>
         <a
           class="btn btn-outline-primary ms-3"
-          href="/Portfolio1/Jagadeesh_Kuna_Resume.pdf "
+          href=" /portfolio/Jagadeesh_Kuna_Resume.pdf "
           target="_blank"
         >
           View Resume
