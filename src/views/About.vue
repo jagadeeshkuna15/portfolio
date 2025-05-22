@@ -1,9 +1,14 @@
 <template>
   <section id="about" class="section-themable">
     <div class="container">
-      <h2 class="text-center mb-4">About Me</h2>
+      <!-- Title and Divider -->
+      <div class="section-header mb-5">
+        <h2 class="section-title">About Me</h2>
+        <hr class="section-divider" />
+      </div>
 
       <div class="row align-items-center">
+        <!-- Profile Image -->
         <div class="col-md-4 text-center mb-3 mb-md-0">
           <img
             src="/jaggu-26.jpg"
@@ -12,6 +17,7 @@
           />
         </div>
 
+        <!-- Description -->
         <div class="col-md-8">
           <p>
             I am a Frontend Developer with 2.5+ years of experience delivering clean, scalable,
@@ -32,7 +38,19 @@
   padding: 80px 0;
 }
 
-h2 {
+.section-header {
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 1.75rem;
+  font-weight: 700;
   color: var(--text);
+  margin-bottom: 0.5rem;
+}
+
+.section-divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
 </style>
