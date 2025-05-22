@@ -1,49 +1,32 @@
 <template>
   <section id="education" class="section-themable">
     <div class="container">
-      <!-- Title -->
       <div class="section-header mb-5">
         <h2 class="section-title">Education</h2>
         <hr class="section-divider" />
       </div>
 
-      <div class="row align-items-center">
-        <!-- Left: Text -->
-        <div class="col-lg-7">
-          <div class="edu-entry mb-4 row">
-            <div class="col-9">
-              <h5 class="fw-bold  mb-1">Cleveland State University</h5>
-              <p class="mb-0 ">
-                Master of Science – <em>Computer Science and Engineering</em>
-              </p>
-            
-            </div>
-            <div class="col-3 text-end  fw-semibold">Ohio, USA</div>
-          </div>
-
-          <div class="edu-entry row">
-            <div class="col-9">
-             <h5 class="fw-bold mb-1" :style="{ color: 'var(--text-color)' }">
-  Jawaharlal Nehru Technological University(JNTUK)
-</h5>
-
-<p class=" mb-0" :style="{ color: 'var(--text-color)' }">
- Bachelor of Technology  <em> - Computer Science and Engineering</em>
-</p>
-
-            </div>
-            <div class="col-3 text-end  fw-semibold">Kakinada, India</div>
-          </div>
+      <!-- Card 1 -->
+      <div class="edu-card mb-4 d-flex align-items-center">
+        <div class="edu-logo">
+          <img src="/Cleveland_State_University_logo.png" alt="Cleveland State University" class="img-fluid" />
         </div>
+        <div class="edu-details">
+          <h5 class="fw-bold text-highlight mb-1">Cleveland State University</h5>
+          <p class="mb-1">Master of Science in Computer Science and Engineering</p>
+        </div>
+      </div>
 
-        <!-- Right: Image -->
-        <div class="col-lg-5 text-center mt-5 mt-lg-0">
-         <img
-  src="/education-illustration.gif"
-  alt="Education Illustration"
-  class="img-fluid animate-fade-up"
-  style="max-width: 300px; height: auto;"
-/>
+      <!-- Card 2 -->
+      <div class="edu-card mb-4 d-flex align-items-center">
+        <div class="edu-logo bg-dark">
+          <img src="/bvc.webp" alt="JNTUK" class="img-fluid" />
+        </div>
+        <div class="edu-details">
+          <h5 class="fw-bold text-highlight mb-1">
+            BVCR COLLEGE OF ENGINEERING, Kakinada (JNTUK)
+          </h5>
+          <p class="mb-0">Bachelor of Technology in Computer Science and Engineering</p>
         </div>
       </div>
     </div>
@@ -52,8 +35,8 @@
 
 <script>
 export default {
-  name: 'Education',
-};
+  name: 'Education'
+}
 </script>
 
 <style scoped>
@@ -63,35 +46,59 @@ export default {
   padding: 80px 0;
 }
 
+.section-header {
+  margin-bottom: 2rem;
+}
+
 .section-title {
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 700;
-  font-family: 'Segoe UI', sans-serif;
+  color: var(--text);
+  margin-bottom: 0.5rem;
 }
 
 .section-divider {
   border: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
-  margin-bottom: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-.edu-entry {
-  margin-bottom: 2rem;
+/* Card Styles + Transition */
+.edu-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 transparent;
 }
 
-/* Simple fade-up animation */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-  to {
-    opacity: 1;
-    transform: none;
-  }
+.edu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.08);
 }
 
-.animate-fade-up {
-  animation: fadeInUp 1s ease forwards;
+.edu-logo {
+  flex: 0 0 80px;
+}
+
+.edu-logo img {
+  max-width: 80px;
+  border-radius: 5px;
+}
+
+.edu-details {
+  flex: 1;
+}
+
+.bg-dark {
+  background-color: #1a1a1a;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.text-highlight {
+  color: var(--accent);
 }
 </style>

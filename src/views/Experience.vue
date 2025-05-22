@@ -1,4 +1,5 @@
 <template>
+  <div>
   <section id="experience" class="section-themable">
     <div class="container">
       <!-- Section Title with Horizontal Line -->
@@ -36,6 +37,7 @@ work, giving a work update, product demo or step-by-step instructions.
       </div>
     </div>
   </section>
+  </div>
 </template>
 
 <script>

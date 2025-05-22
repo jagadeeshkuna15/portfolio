@@ -11,7 +11,7 @@
         <!-- Profile Image -->
         <div class="col-md-4 text-center mb-3 mb-md-0">
           <img
-            src="/jaggu-26.jpg"
+            src="/jaggu-26.png"
             class="img-fluid rounded-circle"
             alt="Jagadeesh Kuna"
           />
