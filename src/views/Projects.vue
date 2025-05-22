@@ -28,7 +28,7 @@
       <!-- Project 2 -->
       <div class="project-card row align-items-center mb-5">
         <div class="col-md-6 mb-3 mb-md-0">
-          <img src="/mail.webp" alt="Project Illustration" class="img-fluid" />
+          <img src="/500box.png" alt="Project Illustration" class="img-fluid" />
         </div>
         <div class="col-md-6">
           <h5 class="fw-bold mb-2" style="color: var(--accent)">500Box</h5>
@@ -45,7 +45,7 @@
       <!-- Project 3 -->
       <div class="project-card row align-items-center mb-3">
         <div class="col-md-6 mb-3 mb-md-0">
-          <img src="/500box.png" alt="Project Illustration" class="img-fluid" />
+          <img src="/mail.webp" alt="Project Illustration" class="img-fluid" />
         </div>
         <div class="col-md-6">
           <h5 class="fw-bold mb-2" style="color: var(--accent)">500Mail</h5>
